@@ -8,9 +8,8 @@ export default function App() {
         <Text style={styles.boldText}>Hello, World!</Text>
       </View>
       <View style={styles.body}>
-        <Text>Lorem ipsum <Text style={styles.boldText}>dolor</Text> sit amet.</Text>
-        <Text>Lorem ipsum dolor sit amet.</Text>
-        <Text>Lorem ipsum dolor sit amet.</Text>
+        <Text>Simple<Text style={styles.boldText}>React Native</Text>Example</Text>
+        
       </View>
       
     </View>
