@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 
 export default function App() {
-  const [name, setName] = useState('shaun');
-  const [person, setPerson] = useState({ name: 'mario', age: 40 });
+  const [name, setName] = useState('CF');
+  const [person, setPerson] = useState({ name: 'ClayFin', age: 25 });
 
   const clickHandler = () => {
-    setName('chun-li');
-    setPerson({ name: 'luigi', age: 45 });
+    setName('Cl_Fn');
+    setPerson({ name: 'cf', age: 25 });
   };
 
   return (
